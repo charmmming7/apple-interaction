@@ -1,0 +1,33 @@
+{
+  "name": "apple-clone-v11",
+  "version": "1.0.0",
+  "description": "애플 사이트 인터랙션 클론 강의",
+  "main": "index.js",
+  "dependencies": {
+    "stylelint-scss": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.28.0",
+    "prettier": "3.0.1",
+    "stylelint": "^15.10.2",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-recommended": "^13.0.0",
+    "stylelint-config-sass-guidelines": "^10.0.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-standard-scss": "^10.0.0",
+    "stylelint-order": "^6.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:script": "eslint src/**/**.{ts,tsx}",
+    "lint:style": "stylelint src/**/**.{scss,css}",
+    "stylelint": "stylelint ./*.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
